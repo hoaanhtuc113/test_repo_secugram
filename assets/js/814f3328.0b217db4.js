@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecugram=self.webpackChunksecugram||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"MITRE ATT&CK Evaluation (Wizard Spider + Sandworm) - A Closer Look from Detection Engineer\'s Perspective - Part 1","permalink":"/blog/first-blog-post"}]}')}}]);

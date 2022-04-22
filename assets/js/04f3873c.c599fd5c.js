@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecugram=self.webpackChunksecugram||[]).push([[469],{7707:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"security","count":1,"permalink":"/blog/tags/security"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecugram=self.webpackChunksecugram||[]).push([[245],{3648:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","name":"detection engineer","count":1,"permalink":"/blog/tags/detection-engineer"}')}}]);

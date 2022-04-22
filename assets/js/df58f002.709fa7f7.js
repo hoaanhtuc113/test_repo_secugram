@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksecugram=self.webpackChunksecugram||[]).push([[937],{4717:function(e){e.exports=JSON.parse('{"permalink":"/blog/tags/mitre","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

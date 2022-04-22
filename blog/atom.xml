@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://your-docusaurus-test-site.com/sg-public/blog</id>
+    <title>SecuGram Blog</title>
+    <updated>2019-05-29T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://your-docusaurus-test-site.com/sg-public/blog"/>
+    <subtitle>SecuGram Blog</subtitle>
+    <icon>https://your-docusaurus-test-site.com/sg-public/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[FalconFriday — AV Manipulation — 0xFF0E]]></title>
+        <id>long-blog-post</id>
+        <link href="https://your-docusaurus-test-site.com/sg-public/blog/long-blog-post"/>
+        <updated>2019-05-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today’s blog is based on Olaf Hartong’s recent research on malware behavior at scale. In this edition, we’ll look at how malware tampers with the local Windows Defender AV and how you can detect it.]]></summary>
+        <content type="html"><![CDATA[<p>Today’s blog is based on Olaf Hartong’s recent research on malware behavior at scale. In this edition, we’ll look at how malware tampers with the local Windows Defender AV and how you can detect it.</p><p>TL;DR for blue teams: You can use this rule as an early indicator of a potential compromise. At the very least, someone is weakening your defenses. </p><p>TL;DR for red teams: Avoid using the PowerShell APIs for disabling the Defender AV.</p><p>Cross post from medium.com, please read the full article here:</p>]]></content>
+        <author>
+            <name>Hoa Anh Tuc</name>
+            <uri>https://github.com/hoaanhtuc113</uri>
+        </author>
+        <category label="secugram" term="secugram"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FalconFriday — Process Injection revisited — 0xFF0F]]></title>
+        <id>first-blog-post</id>
+        <link href="https://your-docusaurus-test-site.com/sg-public/blog/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this edition of FalconFriday, we are going to revisit process injection techniques. We’ve covered process injection in a previous blog post; this one is an extension to cover other process injection techniques.]]></summary>
+        <content type="html"><![CDATA[<p>In this edition of FalconFriday, we are going to revisit process injection techniques. We’ve covered process injection in a previous blog post; this one is an extension to cover other process injection techniques.</p><p>TL;DR for blue teams: The two rules in this blog provide you with (indicators of) process injection techniques that are not natively detected by Defender for Endpoint.</p><p>TL;DR for red teams: We’re trying to push you to start using more obscure process injection techniques. Injections with QueueUserApcand explicitly allocating memory in remote processes are being detected by these two rules.</p>]]></content>
+        <author>
+            <name>Hoa Anh Tuc</name>
+            <uri>https://github.com/hoaanhtuc113</uri>
+        </author>
+        <category label="secugram" term="secugram"/>
+        <category label="security" term="security"/>
+    </entry>
+</feed>
